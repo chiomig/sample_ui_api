@@ -1,0 +1,7 @@
+<h1>Coins#index</h1>
+<p>Find me in app/views/coins/index.html.erb</p>
+<% @coins.each do |coin| %>
+  Name: <%= coin.name %> <br/>
+  Ticker: <%= coin.ticker %> <br/>
+  Price: <%= coin.price %> <br/>
+<% end %>
